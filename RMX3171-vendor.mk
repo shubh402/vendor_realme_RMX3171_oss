@@ -2982,7 +2982,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3171/proprietary/vendor/etc/mmigroup/spk.wav:$(TARGET_COPY_OUT_VENDOR)/etc/mmigroup/spk.wav \
     vendor/realme/RMX3171/proprietary/vendor/etc/mtk_omx_core.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/mtk_omx_core.cfg \
     vendor/realme/RMX3171/proprietary/vendor/etc/ncf_pack.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/ncf_pack.ncf \
-    vendor/realme/RMX3171/proprietary/vendor/etc/nfc/com.oppo.nfc_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/com.oppo.nfc_feature.xml \
     vendor/realme/RMX3171/proprietary/vendor/etc/nfc/libnfc-mtp-SN100.conf_19015:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-mtp-SN100.conf_19015 \
     vendor/realme/RMX3171/proprietary/vendor/etc/nfc/libnfc-mtp-SN100.conf_19031:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-mtp-SN100.conf_19031 \
     vendor/realme/RMX3171/proprietary/vendor/etc/nfc/libnfc-mtp-SN100.conf_19040:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/libnfc-mtp-SN100.conf_19040 \
@@ -3164,7 +3163,6 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3171/proprietary/vendor/etc/nfc/nfc_conf_ref:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/nfc_conf_ref \
     vendor/realme/RMX3171/proprietary/vendor/etc/partition_permission.sh:$(TARGET_COPY_OUT_VENDOR)/etc/partition_permission.sh \
     vendor/realme/RMX3171/proprietary/vendor/etc/permissions/com.fingerprints.fpmmi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.fingerprints.fpmmi.xml \
-    vendor/realme/RMX3171/proprietary/vendor/etc/permissions/com.oppo.nfc_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.oppo.nfc_feature.xml \
     vendor/realme/RMX3171/proprietary/vendor/etc/permissions/vendor-oppo-engnative-engineer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-oppo-engnative-engineer.xml \
     vendor/realme/RMX3171/proprietary/vendor/etc/permissions/vendor-oppo-engnative-engsensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-oppo-engnative-engsensor.xml \
     vendor/realme/RMX3171/proprietary/vendor/etc/permissions/vendor-oppo-hardware.biometrics.fingerprintpay.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor-oppo-hardware.biometrics.fingerprintpay.xml \
