@@ -7,6 +7,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/realme/RMX3171/proprietary/vendor/bin/iwpriv:$(TARGET_COPY_OUT_SYSTEM)/bin/iwpriv \
+    vendor/realme/RMX3171/proprietary/vendor/bin/wpa_cli:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_cli \
     vendor/realme/RMX3171/proprietary/etc/nfcee_access.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/nfcee_access.xml \
     vendor/realme/RMX3171/proprietary/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptXHD_encoder.so \
     vendor/realme/RMX3171/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
@@ -78,6 +79,9 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3171/proprietary/vendor/bin/getconf:$(TARGET_COPY_OUT_VENDOR)/bin/getconf \
     vendor/realme/RMX3171/proprietary/vendor/bin/gsm0710muxd:$(TARGET_COPY_OUT_VENDOR)/bin/gsm0710muxd \
     vendor/realme/RMX3171/proprietary/vendor/bin/hw/android.hardware.audio@5.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.audio@5.0-service-mediatek \
+    vendor/realme/RMX3171/proprietary/vendor/bin/hw/hostapd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/hostapd \
+    vendor/realme/RMX3171/proprietary/vendor/bin/hw/wpa_supplicant:$(TARGET_COPY_OUT_VENDOR)/bin/hw/wpa_supplicant \
+    vendor/realme/RMX3171/proprietary/vendor/bin/hostapd_cli:$(TARGET_COPY_OUT_VENDOR)/bin/hostapd_cli \
     vendor/realme/RMX3171/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-mediatek:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-mediatek \
     vendor/realme/RMX3171/proprietary/vendor/bin/hw/android.hardware.configstore@1.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.configstore@1.1-service \
     vendor/realme/RMX3171/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service \
@@ -2827,6 +2831,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3171/proprietary/vendor/etc/fstab.enableswap:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.enableswap \
     vendor/realme/RMX3171/proprietary/vendor/etc/fstab.mt6768:$(TARGET_COPY_OUT_VENDOR)/etc/fstab.mt6768 \
     vendor/realme/RMX3171/proprietary/vendor/etc/fstb.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/fstb.cfg \
+    vendor/realme/RMX3171/proprietary/vendor/etc/init/hostapd.android.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hostapd.android.rc \
     vendor/realme/RMX3171/proprietary/vendor/etc/init/aee_aedv.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv.rc \
     vendor/realme/RMX3171/proprietary/vendor/etc/init/aee_aedv64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/aee_aedv64.rc \
     vendor/realme/RMX3171/proprietary/vendor/etc/init/android.hardware.audio@5.0-service-mediatek.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio@5.0-service-mediatek.rc \
@@ -3603,6 +3608,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3171/proprietary/vendor/lib/libavcodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavcodec.so \
     vendor/realme/RMX3171/proprietary/vendor/lib/libavformat.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavformat.so \
     vendor/realme/RMX3171/proprietary/vendor/lib/libavutil.so:$(TARGET_COPY_OUT_VENDOR)/lib/libavutil.so \
+    vendor/realme/RMX3171/proprietary/vendor/lib/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwpa_client.so \
     vendor/realme/RMX3171/proprietary/vendor/lib/libbessound_hd_mtk_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbessound_hd_mtk_vendor.so \
     vendor/realme/RMX3171/proprietary/vendor/lib/libblisrc32_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libblisrc32_vendor.so \
     vendor/realme/RMX3171/proprietary/vendor/lib/libbluetooth_audio_session_mediatek.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_mediatek.so \
@@ -3841,6 +3847,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX3171/proprietary/vendor/lib/vendor.oppo.hardware.hypnus@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.hypnus@1.0.so \
     vendor/realme/RMX3171/proprietary/vendor/lib/vendor.oppo.hardware.ktv@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.ktv@1.0.so \
     vendor/realme/RMX3171/proprietary/vendor/lib/vendor.oppo.hardware.oiface@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.oppo.hardware.oiface@1.0.so \
+    vendor/realme/RMX3171/proprietary/vendor/lib64/libwpa_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwpa_client.so \
     vendor/realme/RMX3171/proprietary/vendor/lib64/android.frameworks.fingerprintservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.frameworks.fingerprintservice@1.0.so \
     vendor/realme/RMX3171/proprietary/vendor/lib64/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-util.so \
     vendor/realme/RMX3171/proprietary/vendor/lib64/android.hardware.audio.common@5.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@5.0-util.so \
@@ -4418,4 +4425,5 @@ PRODUCT_PACKAGES += \
     EmCamera \
     SensorHub \
     com.nxp.nfc \
+    mtk-wifi-service \
     vendor.mediatek.hardware.dplanner@2.0-service

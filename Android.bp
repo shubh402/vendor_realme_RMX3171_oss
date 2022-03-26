@@ -48,6 +48,12 @@ android_app_import {
 }
 
 dex_import {
+	name: "mtk-wifi-service",
+	owner: "realme",
+	jars: ["proprietary/framework/mtk-wifi-service.jar"],
+}
+
+dex_import {
 	name: "com.nxp.nfc",
 	owner: "realme",
 	jars: ["proprietary/framework/com.nxp.nfc.jar"],
